@@ -21,9 +21,8 @@
         data () {
             return {
                 folders: [
-                    {name: '我的文集一'},
-                    {name: '我的文集二'},
-                    {name: '我的文集三'}
+                    {name: '已发'},
+                    {name: '草稿'}
                 ]
             }
         },

@@ -1,7 +1,6 @@
 <template>
 <div class="article-edit fl">
-    <div>我是文章一</div><br><br><br><br>
-    <div>文本编辑器</div>
+    <div>我是文章一</div>
 </div>
 </template>
 

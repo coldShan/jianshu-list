@@ -4,7 +4,6 @@ import Hello from '@/components/Hello'
 import Level1 from '@/components/level1'
 import Folder1 from '@/components/folder1'
 import Folder2 from '@/components/folder2'
-import Folder3 from '@/components/folder3'
 import Article1 from '@/components/article'
 import Article2 from '@/components/article2'
 
@@ -53,23 +52,6 @@ export default new Router({
         }
       ]
     },
-    {
-      path: '/folder3',
-      component: Folder3,
-      children: [
-        {
-          path: '',
-          component: Article1
-        },
-        {
-          path: 'article1',
-          component: Article1
-        },
-        {
-          path: 'article2',
-          component: Article2
-        }
-      ]
-    }
+
   ]
 })
